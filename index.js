@@ -406,17 +406,7 @@ const zipinput = 'width:60px;margin-left:10px;text-align:center;';
 
 class WeatherBlock extends Component{
 
-  static propTypes = {
-    zip: PropTypes.number,
-    dayAmount: PropTypes.number
-  }
-
-  static defaultProps = {
-    zip: 74120,
-    dayAmount: 7
-  }
-
-  static displayName = 'WeatherBlock';
+static displayName = 'WeatherBlock';
 
   constructor(props){
     super(props);
